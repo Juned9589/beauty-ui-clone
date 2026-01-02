@@ -10,8 +10,7 @@ body {
   min-height: 100vh;
 }
 
-/* Navbar */
-.navbar {
+ .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,7 +37,7 @@ body {
   font-size: 12px;
 }
 
-/* Hero */
+ 
 .hero {
   display: flex;
   align-items: center;
@@ -85,8 +84,7 @@ body {
   background: #e58f73;
    color: white;
 }
-
-/* Info box */
+ 
 .info-box {
   background: #e58f73;
   padding: 25px;
@@ -109,8 +107,7 @@ body {
   font-weight: bold;
 }
 
-/* Product */
-.product {
+ .product {
   text-align: center;
 }
 
@@ -123,8 +120,7 @@ body {
   color: #333;
 }
 
-/* Responsive */
-@media (max-width: 900px) {
+ @media (max-width: 900px) {
   .hero {
     flex-direction: column;
     text-align: center;
